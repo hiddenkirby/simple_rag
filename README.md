@@ -9,7 +9,7 @@
 1.  create a test_data/ directory and place as many *.txt files in as you'd like
 2.  run `docker run -d -p 8000:8000 -v chrome-data:/chromadb/data chromadb/chroma` to spin up chroma in a docker container daemon
 3.  ensure Ollama is installed
-4.  ensure llama3.1 is downloaded on Ollama
+4.  ensure `llama3.1` and `nomic-embed-text` is downloaded on Ollama
 5.  run `python3 -m venv .venv`
 6.  run `source .venv/bin/activate`
 7.  run `pip install -U -r requirements.txt`
