@@ -1,8 +1,8 @@
 # simple rag
 
-search.py - 
-functions.py - useful rag functions
-importdocs.py - imports any *.txt documents from the test_data/ directory into chroma
+- search.py - main rag script
+- functions.py - useful rag functions
+- importdocs.py - imports any *.txt documents from the test_data/ directory into chroma
 
 ## developer setup
 
